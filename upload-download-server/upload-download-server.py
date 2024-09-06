@@ -14,7 +14,7 @@ import urllib.request
 from io import BytesIO
 
 class SimpleHTTPRequestHandler(http.server.BaseHTTPRequestHandler):
-    """简单的http文件服务器，支持上传下载
+    """
     """
 
     server_version = "SimpleHTTPWithUpload/" + __version__
